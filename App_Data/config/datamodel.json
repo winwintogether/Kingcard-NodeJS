@@ -1,0 +1,90 @@
+{
+  "tables": [
+    {
+      "name": "alarmlog",
+      "permissions": {
+        "insert": "application",
+        "read": "application",
+        "update": "application",
+        "delete": "application"
+      }
+    },
+    {
+      "name": "calloutprofiles",
+      "permissions": {
+        "insert": "application",
+        "read": "application",
+        "update": "application",
+        "delete": "application"
+      }
+    },
+    {
+      "name": "device",
+      "permissions": {
+        "insert": "application",
+        "read": "application",
+        "update": "application",
+        "delete": "application"
+      }
+    },
+    {
+      "name": "fielddata",
+      "permissions": {
+        "insert": "application",
+        "read": "application",
+        "update": "admin",
+        "delete": "admin"
+      }
+    },
+    {
+      "name": "modbusmap",
+      "permissions": {
+        "insert": "application",
+        "read": "application",
+        "update": "application",
+        "delete": "application"
+      }
+    },
+    {
+      "name": "realtime",
+      "permissions": {
+        "insert": "application",
+        "read": "application",
+        "update": "application",
+        "delete": "application"
+      }
+    },
+    {
+      "name": "site",
+      "permissions": {
+        "insert": "application",
+        "read": "user",
+        "update": "application",
+        "delete": "application"
+      }
+    },
+    {
+      "name": "testtime",
+      "permissions": {
+        "insert": "application",
+        "read": "application",
+        "update": "application",
+        "delete": "application"
+      }
+    },
+    {
+      "name": "user",
+      "permissions": {
+        "insert": "application",
+        "read": "application",
+        "update": "application",
+        "delete": "application"
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "name": "AlarmCallout"
+    }
+  ]
+}
