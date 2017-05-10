@@ -1,14 +1,4 @@
-// NOTE: NO APP SERVICE RESTART REQUIRED FOR CODE CHANGES !!!!
-
-    var sql = require('sqlserver');
-    var gconn_str = "Driver={SQL Server Native Client 11.0};Server=tcp:vks.database.windows.net,1433;Database=vikingscada-db;Uid=vksAdmin@vks;Pwd=Viking16;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;";
-
-exports.alarmEngine = function(alarmLogRec){
-    getCalloutProfileName(alarmLogRec);
-};
-
-exports.alarmEscalation = function(){
-	console.log("ALARM ESCALATION 22---------------------------------------------");
+// NOT----------------------------");
    // return;
 
 	var query = "SELECT * FROM vikingscada_svc.alarmlog where ack = 'False' and notifycount >= 1 and notifycount < 3";
